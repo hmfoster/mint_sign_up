@@ -1,0 +1,73 @@
+body{
+	font-family: "Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:17px;
+	font-weight: bold;
+	color: #262c26;
+}
+
+header, main, footer{
+	margin: 0 auto;
+}
+header{
+	margin-top: 70px;
+	width: 700px;
+}
+main{
+	width: 630px; 
+	border: solid 1px #ddd;
+	box-shadow: -3px 3px 3px -3px #aaa;
+	overflow: hidden;
+	padding: 40px 20px 25px 40px;
+}
+.user_choice img{
+	float: left;
+}
+a.user_choice{
+	display: inline;
+	float: right;
+	padding: 0 15px;
+	margin-top: 15px;
+	text-decoration: none;
+	color: #222;
+}
+.right{
+	border-left: solid 1px #ccc;
+	font-weight: normal;
+	color: #333
+}
+h1{
+	font-size: 28px;
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+label, input, select{
+	display: block;
+}
+p input[type=checkbox]{
+	display: inline-block;
+}
+input, select{
+	margin-top: 10px;
+}
+input, select{
+	font-size: 15px;
+	line-height: 1.8;
+	width: 400px;
+	border-radius: 6px;
+	box-shadow: none;
+	height: 30px;
+}
+input[type="number"]{
+	width: 90px
+}
+input[type="checkbox"]{
+	width: 10px;
+}
+label{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.terms{
+	font-size: 14px;	
+	font-weight: normal;
+}
